@@ -9,6 +9,7 @@ public class Start : MonoBehaviour
     }
     public void EndGame()
     {
+        //first two lines so we can see it quitting while playing in unity's editor!! next two lines for actually quitting an executable game.....(weird syntax tho.....)
         #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
         #endif

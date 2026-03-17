@@ -35,6 +35,7 @@ public class ZoomTransition : MonoBehaviour
     IEnumerator LoadLevel()
     {
         blackhole.SetTrigger("Start"); //play animation
+        SoundEffectManager.Play("Zoom");
         yield return new WaitForSeconds(1f); //wait
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //load next scene
     }
