@@ -1687,6 +1687,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: OptionsMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 482821999469028552, guid: 5809b8a7951e744bc91553761925615d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 494509354952330242, guid: 5809b8a7951e744bc91553761925615d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 494509354952330242, guid: 5809b8a7951e744bc91553761925615d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3274822884390313298, guid: 5809b8a7951e744bc91553761925615d, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1770,6 +1782,14 @@ PrefabInstance:
     - target: {fileID: 3702155251843703559, guid: 5809b8a7951e744bc91553761925615d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6565056824736727225, guid: 5809b8a7951e744bc91553761925615d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6565056824736727225, guid: 5809b8a7951e744bc91553761925615d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9032325107811703975, guid: 5809b8a7951e744bc91553761925615d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target

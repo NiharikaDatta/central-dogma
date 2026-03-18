@@ -33,7 +33,7 @@ public class SoundEffectManager : MonoBehaviour
         }
         //todos:-
         //wtf is playclipatpoint!?!!? - done!!
-        //another audiosource for background, i think....
+        //another audiosource for background, i think.... - DONE!!
     }
     public static void PlayAtPosition(string soundName, Vector3 position) //in case i want to...
     {
