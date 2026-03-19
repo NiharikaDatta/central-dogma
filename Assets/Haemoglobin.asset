@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cee7a2af8f5b42b7a9402e52a30d786, type: 3}
   m_Name: Haemoglobin
   m_EditorClassIdentifier: Assembly-CSharp::StrandData
-  proteinName: 
+  proteinName: Oxygen Carrier
   description: 
   dnasequence: 
-  rarity: 0
+  rarity: 1
   funfact: 
