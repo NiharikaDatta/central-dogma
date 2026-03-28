@@ -3,7 +3,7 @@ using System.IO.Enumeration;
 using NUnit.Framework;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "StrandData", menuName = "Strand")]
+[CreateAssetMenu(fileName = "StrandData", menuName = "Scriptable Objects/Strand")]
 public class StrandData : ScriptableObject
 {
     public string proteinName; //the funny name - like, oxygen carrier!!

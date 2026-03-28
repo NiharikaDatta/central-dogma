@@ -459,7 +459,8 @@ namespace FastScriptReload.Editor
             return AssetDatabase.GetAssetPath(obj.GetInstanceID());
         }
 
-        public void Update()
+
+    public void Update()
         {
             _isEditorModeHotReloadEnabled = (bool)FastScriptReloadPreference.EnableExperimentalEditorHotReloadSupport.GetEditorPersistedValueOrDefault();
             if (_lastPlayModeStateChange == PlayModeStateChange.ExitingPlayMode && Instance._fileWatchers.Any())

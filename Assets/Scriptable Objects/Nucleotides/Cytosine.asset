@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8d97aedc237b844488844151f893e104, type: 3}
-  m_Name: NucleotideData
+  m_Name: Cytosine
   m_EditorClassIdentifier: Assembly-CSharp::NucleotideData
-  nucleotideType: 0
-  displayName: 
+  nucleotideType: 3
+  displayName: Cytosine
   pickupSound: 
   minPitch: 0.5
   maxPitch: 1.5
-  floating_block: 
-  pairsWith: 0
+  pairsWith: 2
   sprite: {fileID: 0}
-  normalColor: {r: 1, g: 1, b: 1, a: 1}
+  normalColor: {r: 1, g: 0.9499881, b: 0, a: 1}
   matchedColor: {r: 0.9803922, g: 0.9215687, b: 0.8431373, a: 1}
