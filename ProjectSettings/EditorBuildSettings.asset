@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Inside Nucleus.unity
     guid: 98d816a182bfd4548b54e206fee6e4b6
+  - enabled: 1
+    path: Assets/Scenes/Transcription.unity
+    guid: c5d489c840a94431da9cbf18b09eaae0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

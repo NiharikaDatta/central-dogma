@@ -10,22 +10,11 @@ public class StrandManager : MonoBehaviour
     public NucleotideData guanine;
 
     [SerializeField] private float blockspacing=1.5f;
-
-    public static StrandManager Instance;
     public static StrandLibrary strandLibrary;
     public static StrandData currentStrand;
     void Awake()
     {
-        if(Instance==null)
-        {
-            Instance=this;
-            strandLibrary = GetComponent<StrandLibrary>();
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        strandLibrary = GetComponent<StrandLibrary>();
     }
     public static void Strand(string strandName)
     {

@@ -5,9 +5,19 @@ public class StrandLibrary : MonoBehaviour
 {
     public StrandData[] allStrands;
     private static Dictionary<string, StrandData> strandDictionary;
+    public static StrandLibrary Instance;
     void Awake()
     {
-        InitializeDict();
+        if(Instance==null)
+        {
+            Instance=this;
+            InitializeDict();
+            DontDestroyOnLoad(gameObject);
+        }   
+        else
+        {
+            Destroy(gameObject);
+        }
     }
   void InitializeDict()
     {
