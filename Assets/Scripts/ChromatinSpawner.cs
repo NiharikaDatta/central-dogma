@@ -23,6 +23,7 @@ public class ChromatinSpawner : MonoBehaviour
         for(int i=0; i<NumberofStrands; i++)
         {
             Vector3 position=new Vector3(Random.Range(-spawnrange,spawnrange), Random.Range(-spawnlength, spawnlength), 0);
+            //TODO: Add check to prevent overlapping strands
             strand = Instantiate(chromatin, position, Quaternion.identity);
             strand.GetComponent<Chromatin>().strandData=randomStrands[i];
         }
@@ -57,5 +58,5 @@ public class ChromatinSpawner : MonoBehaviour
             }
         }            
         return dataList[0];   
-    }     
+    }
 }

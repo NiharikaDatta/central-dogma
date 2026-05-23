@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::StrandData
   proteinName: Oxygen Carrier
   description: 
-  dnasequence: 
+  dnasequence: ATCCG
   rarity: 1
   funfact: 
