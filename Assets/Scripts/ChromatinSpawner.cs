@@ -56,7 +56,7 @@ public class ChromatinSpawner : MonoBehaviour
             {
                 return strand;
             }
-        }            
+        }           
         return dataList[0];   
     }
 }
